@@ -5,7 +5,7 @@
   * Alen Handukic
   * Dennis Mills
 
-## Project Description:
+## Project Description
   This project provides an image recolorization implementation based on machine learning and Convolutional Neural Networks.
   
  ## Files
@@ -16,3 +16,8 @@
 
 ## Downloading The Dataset
  The dataset can be found [here](https://www.kaggle.com/prasunroy/natural-images).
+ 
+ ## Installing The Dependencies
+  * Make sure the requirements.txt file is in the same folder you placed the code in.
+  * From the terminal, change directory to the same directory as the requirements.txt file and the python files.
+  * run `pip install -r requirements.txt`
