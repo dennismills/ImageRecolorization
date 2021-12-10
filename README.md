@@ -6,13 +6,13 @@
   * Dennis Mills
 
 ## Project Description
-  This project provides an image recolorization implementation based on machine learning and Convolutional Neural Networks.
+  This project provides an image recolorization implementation based on machine learning and GANs.
+  We are colorizing images that were black and white in an attempt to add to the growing amount
+  of research on the topic. We are trying to extend the model from its current form into coloring
+  videos as well, which the model does with relative success.
   
  ## Files
-  * main.py (Main program driver)
-  * Window.py (A class that contains the GUI implementation and connects the GUI to the implementation of the CNN)
-  * ImageManager.py (Contains the Image class as well as the ImageManager class. Used to load, store, and convert images between formats and get info from them)
-  * Application.py (A class that is designed to start the application and start the PyQt5 GUI program)
+  * trainModel.py
 
 ## Downloading The Dataset
  The dataset can be found [here](https://www.kaggle.com/prasunroy/natural-images).
